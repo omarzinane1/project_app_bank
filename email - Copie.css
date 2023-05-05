@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-size: confortaa;
+    font-family: 'Poppins', sans-serif;
+}
+/* Main style body */
+body{
+    height: 100vh;
+    background-color: rgb(216, 216, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*<!--wrapper-->*/
+.wrapper{
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+/*<!--Email MSG Header-->*/
+.email-msg-header{
+    text-align: center;
+}
+/*compary-name*/
+.compary-name{
+    width: 100%;
+    font-size: 35px;
+    color: gray;
+    text-align: center;
+}
+/*<!--bienvenue-text-->*/
+.bienvenue-text{
+    text-align: center;
+    color: rgb(0, 255, 183);
+    font-size: 19px;
+}
+/*<!--vérifier le compte-->*/
+.verifier-compte-btn{
+    padding: 15px;
+    background-color: rgb(0, 115, 255);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+/*<!--copye right wrapper-->*/
+.copye-right{
+    padding: 15px;
+    color: grey;
+    font-size: 14px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

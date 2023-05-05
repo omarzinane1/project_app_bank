@@ -1,0 +1,86 @@
+/*form modifier*/
+.form {
+    background-color: #55dcdc;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(126, 35, 35, 0.2);
+    border-radius: 6px;
+}
+#form1{
+    width: 50%;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 400px;
+
+}
+@media screen and (max-width:800px){
+    #form1{
+        width: 85%;
+        flex-direction: column;
+        align-items: center;
+        margin: 65px auto auto auto;
+
+    
+    }
+    .form form {
+        display: flex;
+        width:fit-content;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        height: fit-content;
+    }
+
+    
+}
+.form form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.back_btn {
+    color: #2badc4;
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+}
+.back_btn img {
+    height: 16px;
+    margin-right:5px ;
+}
+h2 {
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.erreur_message {
+    color: red;
+    font-size: 12px;
+}
+label {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+input{
+    padding: 5px;
+    border: 1px solid #999;
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border: 1px solid #ffcb61;
+}
+input:hover{
+color: #61caff;
+}
+input[type="submit"]{
+    margin-top: 25px;
+    background-color: #2badc4;
+    border: 1px solid #2badc4;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
